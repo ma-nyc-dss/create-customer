@@ -110,7 +110,8 @@
         "type": "object",
         "properties": {
           "error": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^\\d{3}-\\d{7}$"
           },
           "details": {
             "type": "array",
